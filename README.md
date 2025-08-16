@@ -2,7 +2,7 @@
 
 ![viewfinal](https://github.com/user-attachments/assets/f46be67d-95ea-4641-aef3-4499c0e9328f)
 
-- [Demo Project]([https://aliheydarii.github.io/PopUP/](https://aliheydarii.github.io/Login_Page/))
+- [Demo Project](https://aliheydarii.github.io/PopUP/)
 
 - Developed by Ali Heydari
 
