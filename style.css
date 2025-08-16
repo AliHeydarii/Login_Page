@@ -1,0 +1,91 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 80vh;
+            background-image: url(img/photo-1582266255765-fa5cf1a1d501.avif);
+            background-position: center;
+        }
+        span{
+            width: 100px;
+            color: white;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px;
+        }
+        ._mainBox {
+            width: 300px;
+            height: 300px;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.074);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 100px auto;
+            border-radius: 10px;
+            padding: 15px;
+            >p {
+                color: white;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 15px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                padding: 5px;
+            }
+
+            >input {
+                width: 100%;
+                height: 50px;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.128);
+                color: white;
+                border: 0px;
+                padding: 10px;
+                font-size: 15px;
+            }
+
+            >button {
+                width: 100px;
+                border-radius: 10px;
+                font-size: 17px;
+                cursor: pointer;
+                border: none;
+                color: rgb(255, 255, 255);
+                background-color: rgba(0, 13, 255, 0.23);
+            }
+        }
+        /* footer */
+        ._me{
+            color: white;
+            padding: 5px;
+            width: 250px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            border-radius: 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+            height: 70px;
+            background-color: rgba(0, 13, 255, 0.23);
+            position: fixed;
+            top: 81%;
+            left: 50%;
+            transform: translate(-50% , 50%);
+            >a{
+                list-style-type: none;
+                text-decoration: none;
+                color: yellow;
+            }
+           
+        }
