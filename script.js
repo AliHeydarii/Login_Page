@@ -9,11 +9,13 @@ function checkPass() {
             alert("Welcome!");
         } else {
             alert("Incorrect username or password!");
-        }
-        // reset //
+         // reset //
         usernameInput.value = "";passwordInput.value = "";
         // reset //
+        }
+
     }
+
 
 
 
