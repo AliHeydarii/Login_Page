@@ -9,9 +9,11 @@ function checkPass() {
             alert("Welcome!");
         } else {
             alert("Incorrect username or password!");
+                alert("Incorrect username or password!");
         }
 
     }
+
 
 
 
