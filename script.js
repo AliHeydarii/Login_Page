@@ -1,6 +1,3 @@
-// reset //
-usernameInput.value = "";passwordInput.value = "";
-// reset //
 function checkPass() {
         const correctUsername = "admin";
         const correctPassword = "12345";
@@ -13,8 +10,11 @@ function checkPass() {
         } else {
             alert("Incorrect username or password!");
         }
-
+        // reset //
+        usernameInput.value = "";passwordInput.value = "";
+        // reset //
     }
+
 
 
 
